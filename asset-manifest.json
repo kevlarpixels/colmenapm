@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kevlarpixels/colmenapm.git/static/css/main.bcd5bb96.css",
+    "main.js": "/kevlarpixels/colmenapm.git/static/js/main.1c686288.js",
+    "static/js/787.cc335e81.chunk.js": "/kevlarpixels/colmenapm.git/static/js/787.cc335e81.chunk.js",
+    "index.html": "/kevlarpixels/colmenapm.git/index.html",
+    "main.bcd5bb96.css.map": "/kevlarpixels/colmenapm.git/static/css/main.bcd5bb96.css.map",
+    "main.1c686288.js.map": "/kevlarpixels/colmenapm.git/static/js/main.1c686288.js.map",
+    "787.cc335e81.chunk.js.map": "/kevlarpixels/colmenapm.git/static/js/787.cc335e81.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bcd5bb96.css",
+    "static/js/main.1c686288.js"
+  ]
+}
