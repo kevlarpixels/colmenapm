@@ -4,10 +4,9 @@ import { Routes, Route } from 'react-router-dom';
 import {
   Home,
   PropertiesList,
+  PropertiesListEsp,
   PropertyDetails,
-  Whoops404,
-  English,
-  Spanish
+  Whoops404
 } from './pages';
 import {
   Link
@@ -28,9 +27,8 @@ function App() {
     <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/english" element={<English />} />
-        <Route path="/spanish" element={<Spanish />} />
         <Route path="/propertiesList" element={<PropertiesList />} />
+        <Route path="/propertiesListEsp" element={<PropertiesListEsp />} />
         <Route path="propertyDetails" element={<PropertyDetails />} />
         <Route path="/*" element={<Whoops404 />} />
       </Routes>

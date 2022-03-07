@@ -9,8 +9,8 @@ export function Home() {
         <div>
             <h5 className="headline">Language / Idioma</h5>
             <div>
-                <button className="btn"><Link to="/propertiesList">English</Link></button>
-                <button className="btn"><Link to="/spanish">Español</Link></button>
+                <button className="btn"><Link to="/propertieslist">English</Link></button>
+                <button className="btn"><Link to="/propertieslistesp">Español</Link></button>
             </div>
         </div>
     );
@@ -19,10 +19,33 @@ export function Home() {
 export function PropertiesList() {
     return (
         <div>
-            <section>
+            <section className="card"><Link to="/propertyDetails">
             <h5>3637 E. Cesar E. Chavez Ave</h5>
             <p>2 Bedrooms</p>
             <p>1 Bathroom</p>
+            </Link >
+            </section>
+            <section className="card">
+            <h5>3637 1/2 E. Cesar E. Chavez Ave</h5>
+            <p>1 Bedroom</p>
+            <p>1 Bathroom</p>
+            </section>
+        </div>
+    );
+}
+
+export function PropertiesListEsp() {
+    return (
+        <div>
+            <section className="card">
+            <h5>3637 E. Cesar E. Chavez Ave</h5>
+            <p>2 Recámaras</p>
+            <p>1 Baño</p>
+            </section>
+            <section className="card">
+            <h5>3637 1/2 E. Cesar E. Chavez Ave</h5>
+            <p>1 Recámara</p>
+            <p>1 Baño</p>
             </section>
         </div>
     );
@@ -31,26 +54,11 @@ export function PropertiesList() {
 export function PropertyDetails() {
     return (
         <div>
-            <h1>[Properties Details] </h1>
+            <h5>props</h5>
         </div>
     );
 }
 
-export function English() {
-    return (
-        <div>
-            <h2>English</h2>
-        </div>
-    );
-}
-
-export function Spanish() {
-    return (
-        <div>
-            <h2>Spanish</h2>
-        </div>
-    );
-}
 
 export function Whoops404() {
     let location = useLocation();
