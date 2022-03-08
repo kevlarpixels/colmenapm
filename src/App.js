@@ -27,7 +27,7 @@ function App() {
     <>
     <Header/>
       <Routes>
-        <Route path="/comlmenapm/" element={<Home />} />
+        <Route path="/colmenapm" element={<Home />} />
         <Route path="/twobd" element={<TwoBd />} />
         <Route path="/frontphotos" element={<FrontUnitPhotos />}/>
         <Route path="/backphotos" element={<BackUnitPhotos />}/>
