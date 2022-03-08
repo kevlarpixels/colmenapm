@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kevlarpixels/colmenapm/static/css/main.09e684cf.css",
-    "main.js": "/kevlarpixels/colmenapm/static/js/main.6b68f01a.js",
-    "static/js/787.cc335e81.chunk.js": "/kevlarpixels/colmenapm/static/js/787.cc335e81.chunk.js",
-    "index.html": "/kevlarpixels/colmenapm/index.html",
-    "main.09e684cf.css.map": "/kevlarpixels/colmenapm/static/css/main.09e684cf.css.map",
-    "main.6b68f01a.js.map": "/kevlarpixels/colmenapm/static/js/main.6b68f01a.js.map",
-    "787.cc335e81.chunk.js.map": "/kevlarpixels/colmenapm/static/js/787.cc335e81.chunk.js.map"
+    "main.css": "/colmenapm/static/css/main.09e684cf.css",
+    "main.js": "/colmenapm/static/js/main.e79ca608.js",
+    "static/js/787.cc335e81.chunk.js": "/colmenapm/static/js/787.cc335e81.chunk.js",
+    "index.html": "/colmenapm/index.html",
+    "main.09e684cf.css.map": "/colmenapm/static/css/main.09e684cf.css.map",
+    "main.e79ca608.js.map": "/colmenapm/static/js/main.e79ca608.js.map",
+    "787.cc335e81.chunk.js.map": "/colmenapm/static/js/787.cc335e81.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.09e684cf.css",
-    "static/js/main.6b68f01a.js"
+    "static/js/main.e79ca608.js"
   ]
 }
