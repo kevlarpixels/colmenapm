@@ -31,7 +31,7 @@ export function FrontUnitPhotos(props) {
 
 const backUnitPhotos = [
     'https://i.imgur.com/CUF5fTt.jpg',
-    'https://i.imgur.com/g3ekmj.jpg',
+    'https://i.imgur.com/g3eykmj.jpg',
     'https://i.imgur.com/BllcbyQ.jpg',
     'https://i.imgur.com/sOdBxMF.jpg',
     'https://i.imgur.com/k7pkNQk.jpg',
