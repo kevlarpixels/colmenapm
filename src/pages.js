@@ -19,8 +19,8 @@ const frontUnitPhotos = [
 export function FrontUnitPhotos(props) {
     return (
         <div>
-            <section className="btn"><Link to="/TwoBd">
-                <p>Back</p>
+            <section className="btn"><Link to="/TwoBd" style={{textDecoration: 'none'}}>
+                <p className="btnTextLeft">Back</p>
                 </Link ></section>
             {frontUnitPhotos.map((image, i) => (
                 <img alt={frontUnitPhotos.title} key={i} src={image}></img>
@@ -44,8 +44,8 @@ const backUnitPhotos = [
 export function BackUnitPhotos(props) {
     return (
         <div>
-            <section className="btn"><Link to="/OneBd">
-                <p>Back</p>
+            <section className="btn"><Link to="/OneBd" style={{textDecoration: 'none'}}>
+                <p className="btnTextLeft">Back</p>
                 </Link ></section>
             {backUnitPhotos.map((image, i) => (
                 <img alt={backUnitPhotos.title} key={i} src={image}></img>
@@ -57,13 +57,13 @@ export function BackUnitPhotos(props) {
 export function Home() {
     return (
         <div>
-            <section className="card"><Link to="/TwoBd">
+            <section className="card"><Link to="/TwoBd" style={{textDecoration: 'none'}}>
                 <h5>3637 E. Cesar E. Chavez Ave</h5>
                 <p>2 Bedrooms</p>
                 <p>1 Bathroom</p>
             </Link>
             </section>
-            <section className="card"><Link to="/OneBd">
+            <section className="card"><Link to="/OneBd" style={{textDecoration: 'none'}}>
                 <h5>3637 1/4 E. Cesar E. Chavez Ave</h5>
                 <p>1 Bedroom</p>
                 <p>1 Bathroom</p>
@@ -76,8 +76,11 @@ export function Home() {
 export function TwoBd() {
     return (
         <div>
+            <section className="btn"><Link to="/colmenapm" style={{textDecoration: 'none'}}>
+                <p className="btnTextLeft">Back</p>
+                </Link ></section>
             <img alt='front' src="https://i.imgur.com/4BBfaqY.jpg" hieght={200} />
-            <button onClick={FrontUnitPhotos}><Link to="/frontphotos">
+            <button onClick={FrontUnitPhotos}><Link to="/frontphotos" style={{textDecoration: 'none'}}>
                 More Photos
             </Link>
             </button>
@@ -144,8 +147,11 @@ export function TwoBd() {
 export function OneBd() {
     return (
         <div>
+            <section className="btn"><Link to="/colmenapm" style={{textDecoration: 'none'}}>
+                <p className="btnTextLeft">Back</p>
+                </Link ></section>
             <img alt='front' src="https://i.imgur.com/CUF5fTt.jpg" hieght={200} />
-            <button onClick={BackUnitPhotos}><Link to="/backphotos">
+            <button onClick={BackUnitPhotos}><Link to="/backphotos" style={{textDecoration: 'none'}}>
                 More Photos
             </Link>
             </button>
