@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kevlarpixels/colmenapm.git/static/css/main.f5c72dd6.css",
-    "main.js": "/kevlarpixels/colmenapm.git/static/js/main.cc218dfa.js",
+    "main.css": "/kevlarpixels/colmenapm.git/static/css/main.09e684cf.css",
+    "main.js": "/kevlarpixels/colmenapm.git/static/js/main.95d78fb7.js",
     "static/js/787.cc335e81.chunk.js": "/kevlarpixels/colmenapm.git/static/js/787.cc335e81.chunk.js",
     "index.html": "/kevlarpixels/colmenapm.git/index.html",
-    "main.f5c72dd6.css.map": "/kevlarpixels/colmenapm.git/static/css/main.f5c72dd6.css.map",
-    "main.cc218dfa.js.map": "/kevlarpixels/colmenapm.git/static/js/main.cc218dfa.js.map",
+    "main.09e684cf.css.map": "/kevlarpixels/colmenapm.git/static/css/main.09e684cf.css.map",
+    "main.95d78fb7.js.map": "/kevlarpixels/colmenapm.git/static/js/main.95d78fb7.js.map",
     "787.cc335e81.chunk.js.map": "/kevlarpixels/colmenapm.git/static/js/787.cc335e81.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5c72dd6.css",
-    "static/js/main.cc218dfa.js"
+    "static/css/main.09e684cf.css",
+    "static/js/main.95d78fb7.js"
   ]
 }
