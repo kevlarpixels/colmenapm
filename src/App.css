@@ -15,10 +15,11 @@ Header {
   min-height: 40px;
   text-decoration-style: none;
   width: 100%;
-  margin-top: 0px;
+  margin-top: -4px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
+  border: none;
 }
 
 .btnTextLeft {
@@ -119,6 +120,27 @@ margin-top: 42px;}
     max-height: 100%;
   }
 
+
+
+  .footer {
+background-color: white;
+    height:50px;
+    width: 100%;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+    left: -40pt;
+}   
+
+.footer_contents {
+    height:64px; 
+    width: 200px; 
+    margin: auto;
+}
+
   @media screen and (max-width: 600px) {
     .grid {
       display: grid;
@@ -143,7 +165,7 @@ margin-top: 42px;}
       .myButton {
         margin-left: 10%;
         margin-right: 10%;
-        width: 60%;
+        width: 100%;
       }
       .btnTextLeft {
         margin-top: 0px !important;

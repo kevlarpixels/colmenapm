@@ -19,9 +19,9 @@ const frontUnitPhotos = [
 export function FrontUnitPhotos(props) {
     return (
         <div>
-            <section className="btn"><Link to="/TwoBd" style={{textDecoration: 'none'}}>
+            <section className="btn"><Link to="/TwoBd" style={{ textDecoration: 'none' }}>
                 <p className="btnTextLeft">Back</p>
-                </Link ></section>
+            </Link ></section>
             {frontUnitPhotos.map((image, i) => (
                 <img alt={frontUnitPhotos.title} key={i} src={image}></img>
             ))}
@@ -44,9 +44,9 @@ const backUnitPhotos = [
 export function BackUnitPhotos(props) {
     return (
         <div>
-            <section className="btn"><Link to="/OneBd" style={{textDecoration: 'none'}}>
+            <section className="btn"><Link to="/OneBd" style={{ textDecoration: 'none' }}>
                 <p className="btnTextLeft">Back</p>
-                </Link ></section>
+            </Link ></section>
             {backUnitPhotos.map((image, i) => (
                 <img alt={backUnitPhotos.title} key={i} src={image}></img>
             ))}
@@ -57,13 +57,13 @@ export function BackUnitPhotos(props) {
 export function Home() {
     return (
         <div>
-            <section className="card"><Link to="/TwoBd" style={{textDecoration: 'none'}}>
+            <section className="card"><Link to="/TwoBd" style={{ textDecoration: 'none' }}>
                 <h5>3637 E. Cesar E. Chavez Ave</h5>
                 <p>2 Bedrooms</p>
                 <p>1 Bathroom</p>
             </Link>
             </section>
-            <section className="card"><Link to="/OneBd" style={{textDecoration: 'none'}}>
+            <section className="card"><Link to="/OneBd" style={{ textDecoration: 'none' }}>
                 <h5>3637 1/4 E. Cesar E. Chavez Ave</h5>
                 <p>1 Bedroom</p>
                 <p>1 Bathroom</p>
@@ -76,11 +76,11 @@ export function Home() {
 export function TwoBd() {
     return (
         <div>
-            <section className="btn"><Link to="/colmenapm" style={{textDecoration: 'none'}}>
+            <section className="btn"><Link to="/colmenapm" style={{ textDecoration: 'none' }}>
                 <p className="btnTextLeft">Back</p>
-                </Link ></section>
-            <img alt='front' src="https://i.imgur.com/4BBfaqY.jpg" hieght={200} />
-            <button onClick={FrontUnitPhotos}><Link to="/frontphotos" style={{textDecoration: 'none'}}>
+            </Link ></section>
+            <img alt='front' src="https://i.imgur.com/4BBfaqY.jpg" height={200} />
+            <button className="btn" onClick={FrontUnitPhotos}><Link to="/frontphotos" style={{ textDecoration: 'none' }}>
                 More Photos
             </Link>
             </button>
@@ -147,11 +147,11 @@ export function TwoBd() {
 export function OneBd() {
     return (
         <div>
-            <section className="btn"><Link to="/colmenapm" style={{textDecoration: 'none'}}>
+            <section className="btn"><Link to="/colmenapm" style={{ textDecoration: 'none' }}>
                 <p className="btnTextLeft">Back</p>
-                </Link ></section>
+            </Link ></section>
             <img alt='front' src="https://i.imgur.com/CUF5fTt.jpg" hieght={200} />
-            <button onClick={BackUnitPhotos}><Link to="/backphotos" style={{textDecoration: 'none'}}>
+            <button className="btn" onClick={BackUnitPhotos}><Link to="/backphotos" style={{ textDecoration: 'none' }}>
                 More Photos
             </Link>
             </button>
@@ -199,10 +199,6 @@ export function OneBd() {
                 </div>
             </div>
             <div className="application">
-                <div>
-                    <form typeof="button"></form>
-                    <a className="myButton" href="https://docs.google.com/forms/d/e/1FAIpQLSdVMAtl0KVgxD2HGLtR48h6AmnMBtPPX61YnL97wx-sKNlwJw/viewform?usp=sf_link">Application</a>
-                </div>
                 <p>
                     Fill out the form by clicking on the "Application" button.
                     This initial form is for the Hive Management Team (HMT) to know more about the applicant without charging for an application;
@@ -210,6 +206,7 @@ export function OneBd() {
                     Be aware that the California rental application form allows landlords to obtain background information about prospective tenants.
                     A charge of $38 fee for the application will include criminal, credit, or rental history.
                 </p>
+                <Footer />
             </div>
         </div>
     );
@@ -223,5 +220,17 @@ export function Whoops404() {
         <div>
             <h1>Resource not found at {location.pathname}!</h1>
         </div>
+    );
+}
+
+export function Footer() {
+    return (
+            <div className="footer">
+                <div className="footer_contents">
+                    <form typeof="button"></form>
+                    <a className="myButton" href="https://docs.google.com/forms/d/e/1FAIpQLSdVMAtl0KVgxD2HGLtR48h6AmnMBtPPX61YnL97wx-sKNlwJw/viewform?usp=sf_link">Application</a>
+                </div>
+            </div>
+
     );
 }
