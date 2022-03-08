@@ -92,6 +92,8 @@ export function TwoBd() {
                 <div>
                     <h2>Property Details</h2>
                     <p>Commercial-Residential Mix Unit</p>
+                    <p>No On-site Parking</p>
+                    <p>No Pets (preferred)</p>
                 </div>
                 <div className="environment">
                     <div className="schools">
@@ -126,10 +128,6 @@ export function TwoBd() {
                 </div>
             </div>
             <div className="application">
-                <div>
-                    <form typeof="button"></form>
-                    <a className="myButton" href="https://docs.google.com/forms/d/e/1FAIpQLSdVMAtl0KVgxD2HGLtR48h6AmnMBtPPX61YnL97wx-sKNlwJw/viewform?usp=sf_link">Application</a>
-                </div>
                 <p>
                     Fill out the form by clicking on the "Application" button.
                     This initial form is for the Hive Management Team (HMT) to know more about the applicant without charging for an application;
@@ -137,6 +135,7 @@ export function TwoBd() {
                     Be aware that the California rental application form allows landlords to obtain background information about prospective tenants.
                     A charge of $38 fee for the application will include criminal, credit, or rental history.
                 </p>
+                <Footer />
             </div>
         </div>
     );
@@ -164,7 +163,8 @@ export function OneBd() {
                     <h2>Property Details</h2>
                     <p>Commercial-Residential Mix Unit</p>
                     <p>Bungalow</p>
-                    <p></p>
+                    <p>No On-site Parking</p>
+                    <p>No Pets (preferred)</p>
                 </div>
                 <div className="environment">
                     <div className="schools">
