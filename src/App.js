@@ -16,7 +16,7 @@ import {
 export function Header() {
   return (
   <div className="App-header">
-  <Link to="/"><h4>Colmena</h4></Link>
+  <Link to="/colmenapm"><h4>Colmena</h4></Link>
   </div>
   );
 }
