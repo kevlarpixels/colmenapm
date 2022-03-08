@@ -3,10 +3,11 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import {
   Home,
-  PropertiesList,
-  PropertiesListEsp,
-  PropertyDetails,
-  Whoops404
+  TwoBd,
+  OneBd,
+  Whoops404,
+  FrontUnitPhotos, 
+  BackUnitPhotos
 } from './pages';
 import {
   Link
@@ -27,9 +28,10 @@ function App() {
     <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/propertiesList" element={<PropertiesList />} />
-        <Route path="/propertiesListEsp" element={<PropertiesListEsp />} />
-        <Route path="propertyDetails" element={<PropertyDetails />} />
+        <Route path="/twobd" element={<TwoBd />} />
+        <Route path="/frontphotos" element={<FrontUnitPhotos />}/>
+        <Route path="/backphotos" element={<BackUnitPhotos />}/>
+        <Route path="/onebd" element={<OneBd />} />
         <Route path="/*" element={<Whoops404 />} />
       </Routes>
     </>
