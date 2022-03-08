@@ -86,7 +86,7 @@ export function TwoBd() {
             </button>
             <div className="address">
                 <h2>3637 E. Cesar Chavez Ave</h2>
-                <h5>972 Sq Ft. 2 bedrooms 1 bath for $2,000</h5>
+                <h5>972 Sq Ft. 2 bedrooms 1 bath for $2,100</h5>
             </div>
             <div className="description">
                 <div>
@@ -156,7 +156,7 @@ export function OneBd() {
             </button>
             <div className="address">
                 <h2>3637 1/4 E. Cesar Chavez Ave</h2>
-                <h5>633 Sq Ft. 1 bedroom 1 bath for $2,000</h5>
+                <h5>633 Sq Ft. 1 bedroom 1 bath for $1,500</h5>
             </div>
             <div className="description">
                 <div>
