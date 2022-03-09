@@ -7,6 +7,7 @@ import {
 const frontUnitPhotos = [
     'https://i.imgur.com/4BBfaqY.jpg',
     'https://i.imgur.com/RXswCVQ.jpg',
+    'https://i.imgur.com/TiYm0fn.png',
     'https://i.imgur.com/ZfX1ZbC.jpg',
     'https://i.imgur.com/sTLAWWJ.jpg',
     'https://i.imgur.com/jMjZwkh.jpg',
@@ -32,6 +33,7 @@ export function FrontUnitPhotos(props) {
 const backUnitPhotos = [
     'https://i.imgur.com/CUF5fTt.jpg',
     'https://i.imgur.com/g3eykmj.jpg',
+    'https://i.imgur.com/qlBpk4F.png',
     'https://i.imgur.com/BllcbyQ.jpg',
     'https://i.imgur.com/sOdBxMF.jpg',
     'https://i.imgur.com/k7pkNQk.jpg',
